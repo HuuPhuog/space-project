@@ -81,9 +81,9 @@ export default function RegisterPage() {
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#6366f1] to-transparent opacity-50" />
 
           <div className="mb-6">
-            <h1 className="text-2xl font-bold text-white mb-2">Tạo tài khoản mới</h1>
+            <h1 className="text-2xl font-bold text-white mb-2">Tạo Tài Khoản Mới</h1>
             <p className="text-sm text-muted-foreground">
-              Bắt đầu cộng tác gọn nhẹ cùng đội nhóm của bạn.
+              Bắt đầu công việc cùng đội nhóm của bạn.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export default function RegisterPage() {
                 <input
                   type="text"
                   required
-                  placeholder="Nguyễn Văn A"
+                  placeholder="Nhập họ tên"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="w-full bg-[#161620] border border-[#27273a] focus:border-[#6366f1]/60 focus:ring-1 focus:ring-[#6366f1]/60 rounded-xl py-2.5 pl-10 pr-4 text-sm text-white placeholder-muted-foreground outline-none transition-all"
@@ -120,7 +120,7 @@ export default function RegisterPage() {
                 <input
                   type="email"
                   required
-                  placeholder="name@example.com"
+                  placeholder="Nhập email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-[#161620] border border-[#27273a] focus:border-[#6366f1]/60 focus:ring-1 focus:ring-[#6366f1]/60 rounded-xl py-2.5 pl-10 pr-4 text-sm text-white placeholder-muted-foreground outline-none transition-all"

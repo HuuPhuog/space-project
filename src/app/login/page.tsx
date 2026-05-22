@@ -62,7 +62,7 @@ export default function LoginPage() {
           className="glass-panel p-8 rounded-2xl shadow-xl relative overflow-hidden"
         >
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#6366f1] to-transparent opacity-50" />
-          
+
           <div className="mb-6">
             <h1 className="text-2xl font-bold text-white mb-2">Chào mừng trở lại</h1>
             <p className="text-sm text-muted-foreground">
@@ -86,7 +86,7 @@ export default function LoginPage() {
                 <input
                   type="email"
                   required
-                  placeholder="name@example.com"
+                  placeholder="Nhập email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-[#161620] border border-[#27273a] focus:border-[#6366f1]/60 focus:ring-1 focus:ring-[#6366f1]/60 rounded-xl py-2.5 pl-10 pr-4 text-sm text-white placeholder-muted-foreground outline-none transition-all"

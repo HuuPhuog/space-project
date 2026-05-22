@@ -56,7 +56,7 @@ export default function LandingPage() {
       {/* Background Glows */}
       <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-[#6366f1]/5 rounded-full blur-[120px] -z-10" />
       <div className="absolute bottom-10 right-1/4 w-[400px] h-[400px] bg-[#8b5cf6]/5 rounded-full blur-[100px] -z-10" />
-      
+
       {/* Header */}
       <header className="border-b border-border/40 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -96,7 +96,7 @@ export default function LandingPage() {
           </h1>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Thay thế các cuộc đối thoại hỗn loạn trên chat, các tài liệu thất lạc và bảng quản lý dự án cồng kềnh bằng một trung tâm cộng tác tinh gọn, nhanh chóng và mượt mà.
+            Thay thế các cuộc đối thoại hỗn loạn, các tài liệu thất lạc và bảng quản lý dự án cồng kềnh bằng một trung tâm cộng tác tinh gọn, nhanh chóng và mượt mà.
           </p>
 
           <div className="flex items-center justify-center space-x-4 pt-4">
@@ -134,7 +134,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-border/40 py-8 text-center text-xs text-muted-foreground">
-        <p>© 2026 Project Space. Bản quyền thuộc về Google Deepmind - Advanced Agentic Coding.</p>
+        <p>© 2026 Project Space. Bản quyền thuộc về Phuong Nguyen Huu Coding.</p>
       </footer>
     </div>
   );
